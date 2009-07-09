@@ -1,6 +1,5 @@
 require 'rubygems'
 require 'rack'
-require 'haml'
 
 class Go
   def call(env)
