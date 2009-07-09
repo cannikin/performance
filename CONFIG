@@ -1,6 +1,8 @@
 # Here is the server config scripts I used to setup the Amazon EC2 instance.
 # These tests were run on a Medium-sized, High CPU Instance of EC2 running a bare bones
 # Ubuntu 8.10 install: ami-0372946a
+#
+# Connection at time of tests: http://www.speedtest.net/result/513732258.png
 
 # =====================
 # EC2 Instance Config
