@@ -83090,3 +83090,707 @@ Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/go/html]
 Processing GoController#html (for 127.0.0.1 at 2009-07-08 19:53:05) [GET]
 Rendering go/index
 Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/go/html]
+
+
+Processing GoController#erb (for 127.0.0.1 at 2009-07-09 11:14:55) [GET]
+Rendering go/erb
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/go/erb]
+
+
+Processing GoController#builder (for 127.0.0.1 at 2009-07-09 11:14:58) [GET]
+
+ActionView::MissingTemplate (Missing template go/builder.erb in view path app/views):
+  haml (2.0.9) [v] lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  thin (1.2.2) lib/thin/connection.rb:76:in `block in pre_process'
+  thin (1.2.2) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.2) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.2) lib/thin/connection.rb:57:in `process'
+  thin (1.2.2) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run_machine'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run'
+  thin (1.2.2) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.2) lib/thin/server.rb:156:in `start'
+  thin (1.2.2) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.2.2) lib/thin/runner.rb:174:in `run_command'
+  thin (1.2.2) lib/thin/runner.rb:140:in `run!'
+  thin (1.2.2) bin/thin:6:in `<top (required)>'
+  /usr/local/ruby19/bin/thin:19:in `load'
+  /usr/local/ruby19/bin/thin:19:in `<main>'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GoController#builder (for 127.0.0.1 at 2009-07-09 11:15:00) [GET]
+
+ActionView::MissingTemplate (Missing template go/builder.erb in view path app/views):
+  haml (2.0.9) [v] lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  thin (1.2.2) lib/thin/connection.rb:76:in `block in pre_process'
+  thin (1.2.2) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.2) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.2) lib/thin/connection.rb:57:in `process'
+  thin (1.2.2) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run_machine'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run'
+  thin (1.2.2) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.2) lib/thin/server.rb:156:in `start'
+  thin (1.2.2) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.2.2) lib/thin/runner.rb:174:in `run_command'
+  thin (1.2.2) lib/thin/runner.rb:140:in `run!'
+  thin (1.2.2) bin/thin:6:in `<top (required)>'
+  /usr/local/ruby19/bin/thin:19:in `load'
+  /usr/local/ruby19/bin/thin:19:in `<main>'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GoController#builder (for 127.0.0.1 at 2009-07-09 11:15:00) [GET]
+
+ActionView::MissingTemplate (Missing template go/builder.erb in view path app/views):
+  haml (2.0.9) [v] lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  thin (1.2.2) lib/thin/connection.rb:76:in `block in pre_process'
+  thin (1.2.2) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.2) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.2) lib/thin/connection.rb:57:in `process'
+  thin (1.2.2) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run_machine'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run'
+  thin (1.2.2) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.2) lib/thin/server.rb:156:in `start'
+  thin (1.2.2) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.2.2) lib/thin/runner.rb:174:in `run_command'
+  thin (1.2.2) lib/thin/runner.rb:140:in `run!'
+  thin (1.2.2) bin/thin:6:in `<top (required)>'
+  /usr/local/ruby19/bin/thin:19:in `load'
+  /usr/local/ruby19/bin/thin:19:in `<main>'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GoController#builder (for 127.0.0.1 at 2009-07-09 11:15:18) [GET]
+Rendering go/builder
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/go/builder]
+
+
+Processing GoController#builder (for 127.0.0.1 at 2009-07-09 11:16:07) [GET]
+
+ActionView::MissingTemplate (Missing template go/builder.erb in view path app/views):
+  haml (2.0.9) [v] lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  thin (1.2.2) lib/thin/connection.rb:76:in `block in pre_process'
+  thin (1.2.2) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.2) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.2) lib/thin/connection.rb:57:in `process'
+  thin (1.2.2) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run_machine'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run'
+  thin (1.2.2) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.2) lib/thin/server.rb:156:in `start'
+  thin (1.2.2) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.2.2) lib/thin/runner.rb:174:in `run_command'
+  thin (1.2.2) lib/thin/runner.rb:140:in `run!'
+  thin (1.2.2) bin/thin:6:in `<top (required)>'
+  /usr/local/ruby19/bin/thin:19:in `load'
+  /usr/local/ruby19/bin/thin:19:in `<main>'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GoController#builder (for 127.0.0.1 at 2009-07-09 11:16:08) [GET]
+
+ActionView::MissingTemplate (Missing template go/builder.erb in view path app/views):
+  haml (2.0.9) [v] lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  thin (1.2.2) lib/thin/connection.rb:76:in `block in pre_process'
+  thin (1.2.2) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.2) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.2) lib/thin/connection.rb:57:in `process'
+  thin (1.2.2) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run_machine'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run'
+  thin (1.2.2) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.2) lib/thin/server.rb:156:in `start'
+  thin (1.2.2) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.2.2) lib/thin/runner.rb:174:in `run_command'
+  thin (1.2.2) lib/thin/runner.rb:140:in `run!'
+  thin (1.2.2) bin/thin:6:in `<top (required)>'
+  /usr/local/ruby19/bin/thin:19:in `load'
+  /usr/local/ruby19/bin/thin:19:in `<main>'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GoController#builder (for 127.0.0.1 at 2009-07-09 11:16:09) [GET]
+
+ActionView::MissingTemplate (Missing template go/builder.erb in view path app/views):
+  haml (2.0.9) [v] lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  thin (1.2.2) lib/thin/connection.rb:76:in `block in pre_process'
+  thin (1.2.2) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.2) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.2) lib/thin/connection.rb:57:in `process'
+  thin (1.2.2) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run_machine'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run'
+  thin (1.2.2) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.2) lib/thin/server.rb:156:in `start'
+  thin (1.2.2) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.2.2) lib/thin/runner.rb:174:in `run_command'
+  thin (1.2.2) lib/thin/runner.rb:140:in `run!'
+  thin (1.2.2) bin/thin:6:in `<top (required)>'
+  /usr/local/ruby19/bin/thin:19:in `load'
+  /usr/local/ruby19/bin/thin:19:in `<main>'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-09 11:16:13) [GET]
+
+ActionController::RoutingError (No route matches "/go/builder.xml" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  thin (1.2.2) lib/thin/connection.rb:76:in `block in pre_process'
+  thin (1.2.2) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.2) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.2) lib/thin/connection.rb:57:in `process'
+  thin (1.2.2) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run_machine'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run'
+  thin (1.2.2) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.2) lib/thin/server.rb:156:in `start'
+  thin (1.2.2) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.2.2) lib/thin/runner.rb:174:in `run_command'
+  thin (1.2.2) lib/thin/runner.rb:140:in `run!'
+  thin (1.2.2) bin/thin:6:in `<top (required)>'
+  /usr/local/ruby19/bin/thin:19:in `load'
+  /usr/local/ruby19/bin/thin:19:in `<main>'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-09 11:16:15) [GET]
+
+ActionController::RoutingError (No route matches "/go/builder.xml" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  thin (1.2.2) lib/thin/connection.rb:76:in `block in pre_process'
+  thin (1.2.2) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.2) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.2) lib/thin/connection.rb:57:in `process'
+  thin (1.2.2) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run_machine'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run'
+  thin (1.2.2) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.2) lib/thin/server.rb:156:in `start'
+  thin (1.2.2) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.2.2) lib/thin/runner.rb:174:in `run_command'
+  thin (1.2.2) lib/thin/runner.rb:140:in `run!'
+  thin (1.2.2) bin/thin:6:in `<top (required)>'
+  /usr/local/ruby19/bin/thin:19:in `load'
+  /usr/local/ruby19/bin/thin:19:in `<main>'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GoController#builder (for 127.0.0.1 at 2009-07-09 11:16:17) [GET]
+
+ActionView::MissingTemplate (Missing template go/builder.erb in view path app/views):
+  haml (2.0.9) [v] lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  thin (1.2.2) lib/thin/connection.rb:76:in `block in pre_process'
+  thin (1.2.2) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.2) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.2) lib/thin/connection.rb:57:in `process'
+  thin (1.2.2) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run_machine'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run'
+  thin (1.2.2) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.2) lib/thin/server.rb:156:in `start'
+  thin (1.2.2) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.2.2) lib/thin/runner.rb:174:in `run_command'
+  thin (1.2.2) lib/thin/runner.rb:140:in `run!'
+  thin (1.2.2) bin/thin:6:in `<top (required)>'
+  /usr/local/ruby19/bin/thin:19:in `load'
+  /usr/local/ruby19/bin/thin:19:in `<main>'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GoController#builder (for 127.0.0.1 at 2009-07-09 11:16:52) [GET]
+
+ActionView::MissingTemplate (Missing template go/builder.erb in view path app/views):
+  haml (2.0.9) [v] lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  thin (1.2.2) lib/thin/connection.rb:76:in `block in pre_process'
+  thin (1.2.2) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.2) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.2) lib/thin/connection.rb:57:in `process'
+  thin (1.2.2) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run_machine'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run'
+  thin (1.2.2) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.2) lib/thin/server.rb:156:in `start'
+  thin (1.2.2) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.2.2) lib/thin/runner.rb:174:in `run_command'
+  thin (1.2.2) lib/thin/runner.rb:140:in `run!'
+  thin (1.2.2) bin/thin:6:in `<top (required)>'
+  /usr/local/ruby19/bin/thin:19:in `load'
+  /usr/local/ruby19/bin/thin:19:in `<main>'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GoController#builder (for 127.0.0.1 at 2009-07-09 11:16:53) [GET]
+
+ActionView::MissingTemplate (Missing template go/builder.erb in view path app/views):
+  haml (2.0.9) [v] lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  thin (1.2.2) lib/thin/connection.rb:76:in `block in pre_process'
+  thin (1.2.2) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.2) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.2) lib/thin/connection.rb:57:in `process'
+  thin (1.2.2) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run_machine'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run'
+  thin (1.2.2) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.2) lib/thin/server.rb:156:in `start'
+  thin (1.2.2) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.2.2) lib/thin/runner.rb:174:in `run_command'
+  thin (1.2.2) lib/thin/runner.rb:140:in `run!'
+  thin (1.2.2) bin/thin:6:in `<top (required)>'
+  /usr/local/ruby19/bin/thin:19:in `load'
+  /usr/local/ruby19/bin/thin:19:in `<main>'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GoController#builder (for 127.0.0.1 at 2009-07-09 11:17:33) [GET]
+
+ActionView::MissingTemplate (Missing template go/builder.erb in view path app/views):
+  haml (2.0.9) [v] lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  thin (1.2.2) lib/thin/connection.rb:76:in `block in pre_process'
+  thin (1.2.2) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.2) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.2) lib/thin/connection.rb:57:in `process'
+  thin (1.2.2) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run_machine'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run'
+  thin (1.2.2) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.2) lib/thin/server.rb:156:in `start'
+  thin (1.2.2) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.2.2) lib/thin/runner.rb:174:in `run_command'
+  thin (1.2.2) lib/thin/runner.rb:140:in `run!'
+  thin (1.2.2) bin/thin:6:in `<top (required)>'
+  /usr/local/ruby19/bin/thin:19:in `load'
+  /usr/local/ruby19/bin/thin:19:in `<main>'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GoController#builder (for 127.0.0.1 at 2009-07-09 11:17:42) [GET]
+
+ActionView::MissingTemplate (Missing template go/builder.erb in view path app/views):
+  haml (2.0.9) [v] lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  thin (1.2.2) lib/thin/connection.rb:76:in `block in pre_process'
+  thin (1.2.2) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.2) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.2) lib/thin/connection.rb:57:in `process'
+  thin (1.2.2) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run_machine'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run'
+  thin (1.2.2) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.2) lib/thin/server.rb:156:in `start'
+  thin (1.2.2) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.2.2) lib/thin/runner.rb:174:in `run_command'
+  thin (1.2.2) lib/thin/runner.rb:140:in `run!'
+  thin (1.2.2) bin/thin:6:in `<top (required)>'
+  /usr/local/ruby19/bin/thin:19:in `load'
+  /usr/local/ruby19/bin/thin:19:in `<main>'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GoController#builder (for 127.0.0.1 at 2009-07-09 11:17:43) [GET]
+
+ActionView::MissingTemplate (Missing template go/builder.erb in view path app/views):
+  haml (2.0.9) [v] lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  thin (1.2.2) lib/thin/connection.rb:76:in `block in pre_process'
+  thin (1.2.2) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.2) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.2) lib/thin/connection.rb:57:in `process'
+  thin (1.2.2) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run_machine'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run'
+  thin (1.2.2) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.2) lib/thin/server.rb:156:in `start'
+  thin (1.2.2) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.2.2) lib/thin/runner.rb:174:in `run_command'
+  thin (1.2.2) lib/thin/runner.rb:140:in `run!'
+  thin (1.2.2) bin/thin:6:in `<top (required)>'
+  /usr/local/ruby19/bin/thin:19:in `load'
+  /usr/local/ruby19/bin/thin:19:in `<main>'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-09 11:17:49) [GET]
+
+ActionController::RoutingError (No route matches "/go/builder.xml" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  thin (1.2.2) lib/thin/connection.rb:76:in `block in pre_process'
+  thin (1.2.2) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.2) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.2) lib/thin/connection.rb:57:in `process'
+  thin (1.2.2) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run_machine'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run'
+  thin (1.2.2) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.2) lib/thin/server.rb:156:in `start'
+  thin (1.2.2) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.2.2) lib/thin/runner.rb:174:in `run_command'
+  thin (1.2.2) lib/thin/runner.rb:140:in `run!'
+  thin (1.2.2) bin/thin:6:in `<top (required)>'
+  /usr/local/ruby19/bin/thin:19:in `load'
+  /usr/local/ruby19/bin/thin:19:in `<main>'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-09 11:17:51) [GET]
+
+ActionController::RoutingError (No route matches "/go/builder.xml" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  thin (1.2.2) lib/thin/connection.rb:76:in `block in pre_process'
+  thin (1.2.2) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.2) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.2) lib/thin/connection.rb:57:in `process'
+  thin (1.2.2) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run_machine'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run'
+  thin (1.2.2) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.2) lib/thin/server.rb:156:in `start'
+  thin (1.2.2) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.2.2) lib/thin/runner.rb:174:in `run_command'
+  thin (1.2.2) lib/thin/runner.rb:140:in `run!'
+  thin (1.2.2) bin/thin:6:in `<top (required)>'
+  /usr/local/ruby19/bin/thin:19:in `load'
+  /usr/local/ruby19/bin/thin:19:in `<main>'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GoController#builder (for 127.0.0.1 at 2009-07-09 11:17:57) [GET]
+
+ActionView::MissingTemplate (Missing template go/builder.erb in view path app/views):
+  haml (2.0.9) [v] lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  thin (1.2.2) lib/thin/connection.rb:76:in `block in pre_process'
+  thin (1.2.2) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.2) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.2) lib/thin/connection.rb:57:in `process'
+  thin (1.2.2) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run_machine'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run'
+  thin (1.2.2) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.2) lib/thin/server.rb:156:in `start'
+  thin (1.2.2) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.2.2) lib/thin/runner.rb:174:in `run_command'
+  thin (1.2.2) lib/thin/runner.rb:140:in `run!'
+  thin (1.2.2) bin/thin:6:in `<top (required)>'
+  /usr/local/ruby19/bin/thin:19:in `load'
+  /usr/local/ruby19/bin/thin:19:in `<main>'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GoController#builder (for 127.0.0.1 at 2009-07-09 11:17:57) [GET]
+
+ActionView::MissingTemplate (Missing template go/builder.erb in view path app/views):
+  haml (2.0.9) [v] lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  thin (1.2.2) lib/thin/connection.rb:76:in `block in pre_process'
+  thin (1.2.2) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.2) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.2) lib/thin/connection.rb:57:in `process'
+  thin (1.2.2) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run_machine'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run'
+  thin (1.2.2) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.2) lib/thin/server.rb:156:in `start'
+  thin (1.2.2) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.2.2) lib/thin/runner.rb:174:in `run_command'
+  thin (1.2.2) lib/thin/runner.rb:140:in `run!'
+  thin (1.2.2) bin/thin:6:in `<top (required)>'
+  /usr/local/ruby19/bin/thin:19:in `load'
+  /usr/local/ruby19/bin/thin:19:in `<main>'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GoController#erb (for 127.0.0.1 at 2009-07-09 11:18:07) [GET]
+Rendering go/erb
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/go/erb]
+
+
+Processing GoController#erb (for 127.0.0.1 at 2009-07-09 11:19:41) [GET]
+Rendering go/erb
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/go/erb]
+
+
+Processing GoController#haml (for 127.0.0.1 at 2009-07-09 11:19:43) [GET]
+Rendering go/haml
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/go/haml]
+
+
+Processing GoController#html (for 127.0.0.1 at 2009-07-09 11:19:46) [GET]
+Rendering go/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/go/html]
+
+
+Processing GoController#builder (for 127.0.0.1 at 2009-07-09 11:19:52) [GET]
+
+ActionView::MissingTemplate (Missing template go/builder.erb in view path app/views):
+  haml (2.0.9) [v] lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  thin (1.2.2) lib/thin/connection.rb:76:in `block in pre_process'
+  thin (1.2.2) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.2) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.2) lib/thin/connection.rb:57:in `process'
+  thin (1.2.2) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run_machine'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run'
+  thin (1.2.2) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.2) lib/thin/server.rb:156:in `start'
+  thin (1.2.2) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.2.2) lib/thin/runner.rb:174:in `run_command'
+  thin (1.2.2) lib/thin/runner.rb:140:in `run!'
+  thin (1.2.2) bin/thin:6:in `<top (required)>'
+  /usr/local/ruby19/bin/thin:19:in `load'
+  /usr/local/ruby19/bin/thin:19:in `<main>'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GoController#builder (for 127.0.0.1 at 2009-07-09 11:19:54) [GET]
+
+ActionView::MissingTemplate (Missing template go/builder.erb in view path app/views):
+  haml (2.0.9) [v] lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  thin (1.2.2) lib/thin/connection.rb:76:in `block in pre_process'
+  thin (1.2.2) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.2) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.2) lib/thin/connection.rb:57:in `process'
+  thin (1.2.2) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run_machine'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run'
+  thin (1.2.2) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.2) lib/thin/server.rb:156:in `start'
+  thin (1.2.2) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.2.2) lib/thin/runner.rb:174:in `run_command'
+  thin (1.2.2) lib/thin/runner.rb:140:in `run!'
+  thin (1.2.2) bin/thin:6:in `<top (required)>'
+  /usr/local/ruby19/bin/thin:19:in `load'
+  /usr/local/ruby19/bin/thin:19:in `<main>'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GoController#builder (for 127.0.0.1 at 2009-07-09 11:19:55) [GET]
+
+ActionView::MissingTemplate (Missing template go/builder.erb in view path app/views):
+  haml (2.0.9) [v] lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  thin (1.2.2) lib/thin/connection.rb:76:in `block in pre_process'
+  thin (1.2.2) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.2) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.2) lib/thin/connection.rb:57:in `process'
+  thin (1.2.2) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run_machine'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run'
+  thin (1.2.2) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.2) lib/thin/server.rb:156:in `start'
+  thin (1.2.2) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.2.2) lib/thin/runner.rb:174:in `run_command'
+  thin (1.2.2) lib/thin/runner.rb:140:in `run!'
+  thin (1.2.2) bin/thin:6:in `<top (required)>'
+  /usr/local/ruby19/bin/thin:19:in `load'
+  /usr/local/ruby19/bin/thin:19:in `<main>'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GoController#builder (for 127.0.0.1 at 2009-07-09 11:19:55) [GET]
+
+ActionView::MissingTemplate (Missing template go/builder.erb in view path app/views):
+  haml (2.0.9) [v] lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  thin (1.2.2) lib/thin/connection.rb:76:in `block in pre_process'
+  thin (1.2.2) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.2) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.2) lib/thin/connection.rb:57:in `process'
+  thin (1.2.2) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run_machine'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run'
+  thin (1.2.2) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.2) lib/thin/server.rb:156:in `start'
+  thin (1.2.2) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.2.2) lib/thin/runner.rb:174:in `run_command'
+  thin (1.2.2) lib/thin/runner.rb:140:in `run!'
+  thin (1.2.2) bin/thin:6:in `<top (required)>'
+  /usr/local/ruby19/bin/thin:19:in `load'
+  /usr/local/ruby19/bin/thin:19:in `<main>'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GoController#builder (for 127.0.0.1 at 2009-07-09 11:19:55) [GET]
+
+ActionView::MissingTemplate (Missing template go/builder.erb in view path app/views):
+  haml (2.0.9) [v] lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  thin (1.2.2) lib/thin/connection.rb:76:in `block in pre_process'
+  thin (1.2.2) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.2) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.2) lib/thin/connection.rb:57:in `process'
+  thin (1.2.2) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run_machine'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run'
+  thin (1.2.2) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.2) lib/thin/server.rb:156:in `start'
+  thin (1.2.2) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.2.2) lib/thin/runner.rb:174:in `run_command'
+  thin (1.2.2) lib/thin/runner.rb:140:in `run!'
+  thin (1.2.2) bin/thin:6:in `<top (required)>'
+  /usr/local/ruby19/bin/thin:19:in `load'
+  /usr/local/ruby19/bin/thin:19:in `<main>'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GoController#builder (for 127.0.0.1 at 2009-07-09 11:20:27) [GET]
+Rendering go/builder
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/go/builder]
+
+
+Processing GoController#builder (for 127.0.0.1 at 2009-07-09 11:20:32) [GET]
+Rendering go/builder
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/go/builder]
+
+
+Processing GoController#builder (for 127.0.0.1 at 2009-07-09 11:20:36) [GET]
+
+ActionView::MissingTemplate (Missing template go/builder.erb in view path app/views):
+  haml (2.0.9) [v] lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  thin (1.2.2) lib/thin/connection.rb:76:in `block in pre_process'
+  thin (1.2.2) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.2) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.2) lib/thin/connection.rb:57:in `process'
+  thin (1.2.2) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run_machine'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run'
+  thin (1.2.2) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.2) lib/thin/server.rb:156:in `start'
+  thin (1.2.2) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.2.2) lib/thin/runner.rb:174:in `run_command'
+  thin (1.2.2) lib/thin/runner.rb:140:in `run!'
+  thin (1.2.2) bin/thin:6:in `<top (required)>'
+  /usr/local/ruby19/bin/thin:19:in `load'
+  /usr/local/ruby19/bin/thin:19:in `<main>'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GoController#builder (for 127.0.0.1 at 2009-07-09 11:20:37) [GET]
+
+ActionView::MissingTemplate (Missing template go/builder.erb in view path app/views):
+  haml (2.0.9) [v] lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  thin (1.2.2) lib/thin/connection.rb:76:in `block in pre_process'
+  thin (1.2.2) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.2) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.2) lib/thin/connection.rb:57:in `process'
+  thin (1.2.2) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run_machine'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run'
+  thin (1.2.2) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.2) lib/thin/server.rb:156:in `start'
+  thin (1.2.2) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.2.2) lib/thin/runner.rb:174:in `run_command'
+  thin (1.2.2) lib/thin/runner.rb:140:in `run!'
+  thin (1.2.2) bin/thin:6:in `<top (required)>'
+  /usr/local/ruby19/bin/thin:19:in `load'
+  /usr/local/ruby19/bin/thin:19:in `<main>'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GoController#builder (for 127.0.0.1 at 2009-07-09 11:20:37) [GET]
+
+ActionView::MissingTemplate (Missing template go/builder.erb in view path app/views):
+  haml (2.0.9) [v] lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  thin (1.2.2) lib/thin/connection.rb:76:in `block in pre_process'
+  thin (1.2.2) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.2) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.2) lib/thin/connection.rb:57:in `process'
+  thin (1.2.2) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run_machine'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run'
+  thin (1.2.2) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.2) lib/thin/server.rb:156:in `start'
+  thin (1.2.2) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.2.2) lib/thin/runner.rb:174:in `run_command'
+  thin (1.2.2) lib/thin/runner.rb:140:in `run!'
+  thin (1.2.2) bin/thin:6:in `<top (required)>'
+  /usr/local/ruby19/bin/thin:19:in `load'
+  /usr/local/ruby19/bin/thin:19:in `<main>'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GoController#builder (for 127.0.0.1 at 2009-07-09 11:20:37) [GET]
+
+ActionView::MissingTemplate (Missing template go/builder.erb in view path app/views):
+  haml (2.0.9) [v] lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  thin (1.2.2) lib/thin/connection.rb:76:in `block in pre_process'
+  thin (1.2.2) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.2) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.2) lib/thin/connection.rb:57:in `process'
+  thin (1.2.2) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run_machine'
+  eventmachine (0.12.8) lib/eventmachine.rb:242:in `run'
+  thin (1.2.2) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.2) lib/thin/server.rb:156:in `start'
+  thin (1.2.2) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.2.2) lib/thin/runner.rb:174:in `run_command'
+  thin (1.2.2) lib/thin/runner.rb:140:in `run!'
+  thin (1.2.2) bin/thin:6:in `<top (required)>'
+  /usr/local/ruby19/bin/thin:19:in `load'
+  /usr/local/ruby19/bin/thin:19:in `<main>'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GoController#builder (for 127.0.0.1 at 2009-07-09 11:20:40) [GET]
+Rendering go/builder
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/go/builder]
+
+
+Processing GoController#builder (for 127.0.0.1 at 2009-07-09 11:20:41) [GET]
+Rendering go/builder
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/go/builder]
+
+
+Processing GoController#builder (for 127.0.0.1 at 2009-07-09 11:20:41) [GET]
+Rendering go/builder
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/go/builder]
+
+
+Processing GoController#builder (for 127.0.0.1 at 2009-07-09 11:20:41) [GET]
+Rendering go/builder
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/go/builder]

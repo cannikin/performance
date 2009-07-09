@@ -10,6 +10,11 @@ class GoController < ApplicationController
     @now = Time.now
   end
   
+  def builder
+    @now = Time.now
+    render 'builder.xml.builder'
+  end
+  
   def html
     @now = Time.now
     render 'index.html'
