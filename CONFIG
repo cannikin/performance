@@ -26,7 +26,8 @@ cd /tmp/rubygems-1.3.4
 ruby setup.rb
 
 # install gems (sqlite3 is required because Rails wants to connect to a DB, even if there's no DB code)
-gem install rake rack thin sinatra haml sqlite3-ruby
+gem update --system
+gem install rake rack thin sinatra haml sqlite3-ruby --no-rdoc --no-ri
 
 # checkout code
 cd /mnt
