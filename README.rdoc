@@ -1,0 +1,83 @@
+Here is the server config scripts I used to setup the Amazon EC2 instance.
+These tests were run on a Medium-sized, High CPU Instance of EC2 running a bare bones
+Ubuntu 8.10 install: ami-0372946a
+
+You can copy the "EC2 Instance Config" section into a script and run it right on the server
+to get everything set up.
+
+= Test Procedure
+
+After all packages were install and various servers were started and found to work
+the instance was rebooted to start fresh. Apache and nginx were stopped:
+  /etc/init.d/nginx stop
+  /etc/init.d/apache2 stop
+
+When switching to a new framework/server a test was run once to make sure everything
+was loaded into memory before recording any results.
+
+The following script was run with slight variations for each server type. It rans each test 
+11 times (the first was discarded to make sure everything was loaded into memory and ready 
+to go at full speed). Only the requests per second number for each test was returned to the 
+command line:
+
+  ab -n 10000 -c 50 -q http://127.0.0.1:3000/ | grep 'Requests per' && \
+  ab -n 10000 -c 50 -q http://127.0.0.1:3000/ | grep 'Requests per' && \
+  ab -n 10000 -c 50 -q http://127.0.0.1:3000/ | grep 'Requests per' && \
+  ab -n 10000 -c 50 -q http://127.0.0.1:3000/ | grep 'Requests per' && \
+  ab -n 10000 -c 50 -q http://127.0.0.1:3000/ | grep 'Requests per' && \
+  ab -n 10000 -c 50 -q http://127.0.0.1:3000/ | grep 'Requests per' && \
+  ab -n 10000 -c 50 -q http://127.0.0.1:3000/ | grep 'Requests per' && \
+  ab -n 10000 -c 50 -q http://127.0.0.1:3000/ | grep 'Requests per' && \
+  ab -n 10000 -c 50 -q http://127.0.0.1:3000/ | grep 'Requests per' && \
+  ab -n 10000 -c 50 -q http://127.0.0.1:3000/ | grep 'Requests per' && \
+  ab -n 10000 -c 50 -q http://127.0.0.1:3000/ | grep 'Requests per'
+
+== Servers
+Each server was the only one running at the time of the tests. Two ssh sessions
+were running. One to start the server and the other to run Apache Bench.
+
+=== Rack
+  ruby /mnt/performace/rack/erb.rb
+  ab -n 1000 -c 10 -q http://127.0.0.1:3000/
+
+=== Sinatra
+  ruby /mnt/performance/sinatra/erb.rb -e production -p 3000
+  ab -n 1000 -c 10 -q http://127.0.0.1:3000/
+
+=== Rails (served by Thin)
+  thin start -c /mnt/performance/rails -e production -p 3000
+  ab -n 1000 -c 10 -q http://127.0.0.1:3000/go/erb
+
+=== Rails (served by Passenger)
+  /etc/init.d/apache2 start
+  ab -n 1000 -c 10 -q http://127.0.0.1:3000/go/erb
+
+=== Nginx
+  /etc/init.d/nginx start
+  ab -n 1000 -c 10 -q http://127.0.0.1/
+
+=== Apache
+  /etc/init.d/apache2 start
+  ab -n 1000 -c 10 -q http://127.0.0.1/
+
+
+= My setup at time of test
+
+
+My local desktop was rebooted as well and only Terminal, TextMate and Numbers
+were opened so that the tests could be run and results recorded.
+
+Public DNS: ec2-75-101-169-84.compute-1.amazonaws.com
+
+Connection at time of tests: http://www.speedtest.net/result/513732258.png
+
+Server ping response at time of tests:
+64 bytes from 75.101.169.84: icmp_seq=0 ttl=51 time=95.495 ms
+64 bytes from 75.101.169.84: icmp_seq=1 ttl=51 time=95.655 ms
+64 bytes from 75.101.169.84: icmp_seq=2 ttl=51 time=94.861 ms
+64 bytes from 75.101.169.84: icmp_seq=3 ttl=51 time=95.168 ms
+64 bytes from 75.101.169.84: icmp_seq=4 ttl=51 time=100.352 ms
+64 bytes from 75.101.169.84: icmp_seq=5 ttl=51 time=95.381 ms
+64 bytes from 75.101.169.84: icmp_seq=6 ttl=51 time=96.004 ms
+64 bytes from 75.101.169.84: icmp_seq=7 ttl=51 time=95.918 ms
+64 bytes from 75.101.169.84: icmp_seq=8 ttl=51 time=95.444 ms
