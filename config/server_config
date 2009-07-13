@@ -1,6 +1,6 @@
 # Put this on your server and run to set everything up to run these performance tests.
 # You will need to monitor this script and press 'y' to install the apt-get libraries
-# and when setting up Phusion Passenger.
+# and when setting up Passenger.
 #
 # P.S. sqlite3 is required because Rails wants to connect to a DB, even if there's no DB code
 

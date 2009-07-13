@@ -59,25 +59,3 @@ were running. One to start the server and the other to run Apache Bench.
 === Apache
   /etc/init.d/apache2 start
   ab -n 1000 -c 10 -q http://127.0.0.1/
-
-
-= My setup at time of test
-
-
-My local desktop was rebooted as well and only Terminal, TextMate and Numbers
-were opened so that the tests could be run and results recorded.
-
-Public DNS: ec2-75-101-169-84.compute-1.amazonaws.com
-
-Connection at time of tests: http://www.speedtest.net/result/513732258.png
-
-Server ping response at time of tests:
-64 bytes from 75.101.169.84: icmp_seq=0 ttl=51 time=95.495 ms
-64 bytes from 75.101.169.84: icmp_seq=1 ttl=51 time=95.655 ms
-64 bytes from 75.101.169.84: icmp_seq=2 ttl=51 time=94.861 ms
-64 bytes from 75.101.169.84: icmp_seq=3 ttl=51 time=95.168 ms
-64 bytes from 75.101.169.84: icmp_seq=4 ttl=51 time=100.352 ms
-64 bytes from 75.101.169.84: icmp_seq=5 ttl=51 time=95.381 ms
-64 bytes from 75.101.169.84: icmp_seq=6 ttl=51 time=96.004 ms
-64 bytes from 75.101.169.84: icmp_seq=7 ttl=51 time=95.918 ms
-64 bytes from 75.101.169.84: icmp_seq=8 ttl=51 time=95.444 ms
